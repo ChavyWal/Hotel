@@ -1,0 +1,60 @@
+
+Hi,
+ I am the manager of The scenic Hotel located in the swiss alps, we opened on January 1st 1998 and we had a chance to take part in many beautiful vacations and enhanced many special moments since then. 
+
+what I need from you is a table where I'll be able to track the information of the guests in an organised way. 
+    I would like to have columns for the firstname, lastname, amount of people, Date of birth, credit card number, Expiration date, room number, Date they checked in, when they checked out 
+ and a column for the season(Summer is from May to October, The rest is winter).
+
+For the rooms we have a few conditions
+	There can only be four guest per suite, maximum two guests per standard room, we also offer connecting rooms wich accommondates big 
+famillies or groups up to eight people. we recently added a new section to our Hotel wich we call the senior section it oppened on september 19 2020 and we allow only seniors that are 65 or over,
+the rooms can fit in two people. 
+ we added this section to give the seniors a noise free and super calm vacation.
+
+I want a column of the amount of days that the guest spent in the hotel if they didn't check out yet than the amount of days till the current date.  
+	
+i would like to have a column to show the total cost of the visit 
+	A suite is 250$ a night
+	A standard room 170$ a night
+	The connected room is 320$ a night
+	A room in the senior section 150$ a night
+
+reports
+1) Show me a list of all the seniors in the senior section in this format: Firstname lastname, age, season, and  amount of days spent in the hotel. (ex:Jimmy Smith, 76, winter, 5).
+2) Show me The average days that people stay in the hotel.
+3) I would like to have a list of those who visited in the summer, stayed for over seven days and were 2 or more people.
+4) Show me a list of those Guest who came back more than once.
+
+questions
+1) Is it possible that someone should check in and check out on the same date?
+	Yes it is possible for someone to check in and out on the same date but they are charged for a night.
+2) Is it possible that one person should book a couple of rooms?
+	One could book more than one room but every room should be entered as a seperate guest.
+3) Are all ages allowed to make reservations?
+	Thats a good question, we only allow someone thats 18 or over to make reservations.
+4) What about the rooms on wich floors are they located ?
+	we have three floors in our hotel. the only room type thats on a specific floor is the senior rooms, they are located on the first floor.
+
+sample data 
+- Firstname, lastname, Amount of people, Date of birth, credit card number, expiration date, Room Type, Room number, Date checked in, Date checked out, season, Amount of days stayed in the hotel, Total cost 
+ Jimmy, Jane, 6, 1999-12-20, 0999 8976 6543 2357, 08/28, Connecting room, 306, 2020-11-23, 2020-11-25
+ Moshe, Fried, 2, 2000-09-17, 8099 6754 3425 0988, 09/29, Standard room, 202, 2021-07-09, 2021-07-13
+ Nikki, Clark, 1, 1950-09-09, 7878 5656 3456 2123, 09/24, Senior Room, 109, 2021-12-05, 2021-12-13
+ Freddy, Shane, 2, 1987-08-13, 1112 3334 5432 6765, 07/27, Standard room, 234, 2022-11-08, 2022-11-08
+ Kalman, Marko, 5, 1952-05-09, 0987 6754 6867 8888, 11/26, connecting room, 120, 2023-05-13, 2023-05-20 
+ James, Haley, 3, 1975-09-18, 8976 6755 4532 0876, 12/28, suite, 217, 2023-12-17, null
+ Danny, Samuel, 1, 1999-05-16, 9876 0098 3456 2222, 02/27, suite, 209, 2021-06-13, 2021-06-16
+ Nikki, Clark, 2, 1950-09-09, 7878 5656 3456 2123, 09/24, Senior room, 112, 2023-12-08, 2023-12-11
+ Zang, wei, 4, 1987-08-15, 0978 9865 4542 9877, 08/22, suite, 208, 2022-11-15, 2022-11-26
+ Zeidy, Shtark,	2, 1949-07-24, 0975 4643 3156 9087, 09/21, senior room, 135, 2023-08-27, 2023-09-06
+ Zeidy, Shtark, 7, 1949-07-24, 0975 4643 3156 9087, 09/21, connecting room, 312, 2023-08-27, 2023-09-06 
+
+
+
+
+
+
+
+
+
