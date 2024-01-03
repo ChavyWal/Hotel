@@ -24,7 +24,6 @@ create table dbo.guest(
     DateCheckedIn date not null
         constraint ck_Guest_date_checked_in_must_be_after_oppening_date_and_cannot_be_future check(DateCheckedIn between '1998-01-01' and getdate()),
     DateCheckedOut date null 
-        constraint d_Guest_date_checked_out default null
         constraint Guest_dates_cannot_be_future check(DateCheckedOut <= getdate()),
     Season as 
         case 
