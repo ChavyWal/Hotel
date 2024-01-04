@@ -25,7 +25,7 @@ and AmountOfPeople >= 2
 
 --4) Show me a list of those Guest who came back more than once.
 
-select g.FirstName, g.LastName, g.DateCheckedIn, AmountOfTimesVisited = count(*) 
+select g.FirstName, g.LastName, AmountOfTimesVisited = count(distinct g.DateCheckedIn)
 from guest g 
-group by g.FirstName, g.LastName, g.DateCheckedIn
-having count(*) > 1
+group by g.FirstName, g.LastName
+having count(distinct g.DateCheckedIn) > 1
